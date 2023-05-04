@@ -36,7 +36,7 @@
     font-weight: bold;
     font-size: 18px;
     color: #019447;
-    transition: background 0.1s, color 0.1s;
+    /* transition: background 0.1s, color 0.1s; */
   }
   
   .label:hover {
@@ -49,14 +49,21 @@
   
   .input:focus + .label {
     box-shadow: inset 0px 0px 0px 3px #2aa1c0;
-    /* z-index: 1; */
+    z-index: 1;
     color: black;
   }
   
-  .input:checked + .label {
+
+  .input:checked + .label{
     transition: .7s;
     background: linear-gradient(90deg, #019447 0%, #10d56d 100%) !important;
     color: #ffff;
+  }
+
+  .input:checked + .panel{
+    transition: 4s;
+    background: linear-gradient(90deg, #019447 0%, #d9d311 100%) !important;
+    color: #000;
   }
   
   @media (min-width: 600px) {
@@ -66,20 +73,23 @@
     }
   }
 
-
   .panel {
     display: none;
     padding: 20px 30px 30px;
     background: #fff;
+    
   }
   
   @media (min-width: 600px) {
     .panel {
-      order: 99;
+    /* transition: 4s; */
+    order: 99;
     }
   }
   
   .input:checked + .label + .panel {
     margin-top: 15px;
     display: block;
+    color: #5344d4; 
+    transition: 4s;
   }

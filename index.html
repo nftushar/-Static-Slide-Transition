@@ -7,63 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <title>Document</title>
+    <title>Slode Transition</title>
 </head>
 
 <body>
     <div class="tabs">
         <input name="tabs" type="radio" id="tab-1" checked="checked" class="input" />
-        <!-- <div class="label">
-        <i class="icon fa fa-eye fa-eye"></i>
-        <label for="tab-1" > Orange</label>
-    </div> -->
         <label for="tab-1" class="label">
             <i class="icon fa fa-eye fa-eye"></i> Tangerine</label>
 
-        <div class="panel">
+        <section class="panel active active-content">
             <p>The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the
                 family Rutaceae</p>
             <p>The fruit of the Citrus × sinensis is considered a sweet orange, whereas the fruit of the Citrus ×
                 aurantium is considered a bitter orange. The sweet orange reproduces asexually (apomixis through
                 nucellar embryony); varieties of sweet orange arise through mutations.</p>
-        </div>
+        </section>
 
         <input name="tabs" type="radio" id="tab-2" class="input" />
 
         <label for="tab-2" class="label"> <i class="icon fa fa-bullseye fa-bullseye"></i> Tangerine</label>
-        <div class="panel">
+        <section class="panel">
             <p>The tangerine (Citrus tangerina) is an orange-colored citrus fruit that is closely related to, or
                 possibly a type of, mandarin orange (Citrus reticulata).</p>
             <p>The name was first used for fruit coming from Tangier, Morocco, described as a mandarin variety. Under
                 the Tanaka classification system, Citrus tangerina is considered a separate species.</p>
-        </div>
+        </section>
+
 
         <input name="tabs" type="radio" id="tab-3" class="input" />
-
         <label for="tab-3" class="label"> <i class="icon fa fa-smile fa-smile"></i> Clemantine</label>
-        <div class="panel">
+        <section class="panel">
             <p>A clementine (Citrus ×clementina) is a hybrid between a mandarin orange and a sweet orange, so named in
                 1902. The exterior is a deep orange colour with a smooth, glossy appearance. Clementines can be
                 separated into 7 to 14 segments. Similarly to tangerines, they tend to be easy to peel.</p>
-        </div>
-        <input name="tabs" type="radio" id="tab-4" class="input" />
+        </section>
 
+
+        <input name="tabs" type="radio" id="tab-4" class="input" />
         <label for="tab-4" class="label"> <i class="icon fa fa-users fa-users"></i> Contact</label>
-        <div class="panel">
+        <section class="panel">
             <p>A clementine (Citrus ×clementina) is a hybrid between a mandarin orange and a sweet orange, so named in
                 1902. The exterior is a deep orange colour with a smooth, glossy appearance. Clementines can be
                 separated
                 into 7 to 14 segments. Similarly is a deep orange colour with a smooth, glossy appearance. Clementines
                 can be
                 separated into 7 to 14 segments. Similarly to tangerines, they tend to be easy to peel.</p>
-
-
-
-
-            <input type="checkbox" id="toggle" class="toggle__checkbox" />
-
-            <aside class="box">
-                <label for="toggle" class="toggle"><i class="icon"></i></label>
 
                 <section>
                     <h1 style="--index:1;" class="box__item">Opening times</h1>
@@ -72,12 +61,9 @@
                     <p style="--index:4;" class="box__item">Wed : 4PM - 7PM</p>
                     <p style="--index:5;" class="box__item">Wed : 9AM - 11AM</p>
                 </section>
-            </aside>
 
+        </section>
 
-
-
-        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>

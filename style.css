@@ -61,9 +61,9 @@ span.tab-label {
     box-shadow: 0px 10px 40px 0px rgba(107, 125, 179, 0.11);
 }
 
-.tabsSection .tabs>ul li.active {
+/* .tabsSection .tabs>ul li.active {
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 255, 0.22);
-}
+} */
 
 .tabsSection .tabs>ul li a,
 .tabsSection .tabs>ul li a:visited {
@@ -81,7 +81,7 @@ span.tab-label {
     background: -webkit-linear-gradient(left, #f3fbed, #f1f9eb, #f0f7e9, #e4eedc, #dbeccd);
 }
 
-/* .tabsSection .tabs>ul li a:hover, */
+.tabsSection .tabs>ul li a:hover,
 .tabsSection .tabs>ul li a:focus,
 .tabsSection .tabs>ul li a:active {
     outline: 0;
@@ -92,10 +92,9 @@ span.tab-label {
     border-radius: 2px;
     background: linear-gradient(90deg, #019447 0%, #10d56d 100%);
     box-shadow: 0px 10px 40px 0px rgba(107, 125, 179, 0.11);
-    font-size: 15px;
-    font-weight: 700;
-    width: 100%;
-
+    /* font-size: 15px;
+    font-weight: 700; */
+    /* width: 100%; */
     color: #fff;
 }
 
